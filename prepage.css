@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+}
+
+#prePage {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #141414;
+  z-index: 9999;
+}
+#prePage img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
